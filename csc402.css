@@ -1,0 +1,67 @@
+html, body {
+	height: 98%;
+	width: 98%;
+	background: #E8E8FF;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #444;
+}
+
+div#titleBar {
+	font-family: italic bold sans-serif;
+	font-size: 3em;
+	text-align: center;
+	height: 1.5em;
+}
+
+div#mainArea {
+	overflow-y: auto;
+	width: 100%;
+}
+
+.fixedFlexItem {
+	flex: none;
+	-webkit-flex: none;
+	-ms-flex: none;
+}
+
+.fullFlexItem {
+	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+}
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexContainer {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	overflow: auto;
+}
+
+.vertical {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+}
+
+.space-between {
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+}
+
+.subPanel {
+	padding: 1em;
+	overflow: auto;
+}
+img{
+	max-width:300px;
+}
+.panelHeader {
+	font-size: 2em;
+	padding-bottom: .4em;
+}
